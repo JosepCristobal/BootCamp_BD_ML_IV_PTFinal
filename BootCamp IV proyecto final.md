@@ -156,9 +156,14 @@ Añadir link al proyecto de limpieza de datos
  
  [Notebook DeepLearning](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/DeepLearning/DeepLearningPT_Final.ipynb)
  
- 
-[insertar proyecto de ML DL MLP]()
+* Hemos aplicado dos tecnologías de IA para hacer una predicción de precios de alquiler de pisos de la zona de Madrid.
+	- Aplicando técnicas de Machine Learnig hemos conseguido unos resultados no muy buenos. Aplicando SVM en regresión ha sido donde mejores resultados hemos obtenido, con un resultado de "Acc (TEST): 0.60"
+	
+	- Aplicando técnicas de Deep Learning hemos conseguidos unos resultados no muy buenos, pero mejores que los obtenidos con Machine Learning: "mean_absolute_error: 18.7502"
+	
+* A vistas de los resultados obtenidos, nos decantamos por Deep Learnig para hacer las predicciones de precios del alquiler de pisos según sus características, aplicando los algoritmos de los modelos obtenidos.
 
+* Nuestros mejores modelos han sido guardados en formato .h5 para deep learning y en formato .sav usando joblib para machine learning, para poder ser cargados en cualquier momento y realizar las predicciones oportunas. Se han realizado pruebas de guardado, carga y predicción en el mismo NoteBook de de los proyectos de deep learnig y machine learning.
 
 * Con todo ello ya hemos conseguido obtener los datos deseados para ser procesados y enviados por correo a nuestro cliente.
 
