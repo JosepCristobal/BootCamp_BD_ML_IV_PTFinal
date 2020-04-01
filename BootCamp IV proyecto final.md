@@ -154,6 +154,9 @@ Añadir link al proyecto de limpieza de datos
  
  [Proyecto Deep Learning](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/DeepLearning/DeepLearning.md)
  
+ [Notebook DeepLearning](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/DeepLearning/DeepLearningPT_Final.ipynb)
+ 
+ 
 [insertar proyecto de ML DL MLP]()
 
 
