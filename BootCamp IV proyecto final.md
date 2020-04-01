@@ -42,7 +42,8 @@ Hemos recibido un encargo, por parte de un grupo inversor (Capital Ganso, S.A.) 
 	* Diariamente a las 13:00, envío de correo con los resultados obtenidos, a todas las cuentas suscritas.
 
 ## 1. Diagrama de flujo de datos y herramientas utilizadas.
-![insertar imagen Diagrama Proyecto](./images/DiagramaBDA.png)
+![insertar imagen Diagrama Proyecto](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/images/DiagramaBDA.png)
+
 	
 ## 2. Creamos un scraper en Google Collaboratory a partir de un crawler con scrapy y descargamos los datos a un archivo estructurado.
 
@@ -52,7 +53,7 @@ Se han invertido muchísimas horas en intentarlo y al final los resultados no ha
 * Procedemos a la descarga del dataset de airbnb.csv con datos estructurados.
 * Aplicamos filtros de limpieza de datos para obtener un dataset más fiable y que no nos provoque problemas. Para ello hemos abierto el bloc de notas para hacer una primera inspección y posteriormente hemos utilizado Trifacta Wrangler para limpiar los datos y evitar inconsistencias, definiendo reglas para ello.
 
-![insertar imagen Trifacta](./images/Trifacta01.png)
+![insertar imagen Trifacta](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/images/Trifacta01.png)
 
 ## 3. Montar infraestructura de Cluster para el proyecto.
 Vamos a utilizar Google Cloud Platform para montar un cluster de 3 contenedores configurados para alojar Hadoop y sus complementos.
@@ -61,13 +62,13 @@ Procedemos al montaje y detallamos los pasos con las siguientes imágenes y come
 
 * Creamos el cluster en Google Cloud Plataform
 
-![insertar imagen GCP](./images/CP02.png)
+![insertar imagen GCP](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/images/CP02.png)
 
-![insertar imagen GCP](./images/CP04.png)
+![insertar imagen GCP](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/images/CP04.png)
 
 * En el cluster hemos creado una máquina máster y dos esclavas. Para poder acceder a la master por SSH, podemos abrir un terminal directo de Google para trabajar bajo el entorno de navegador.
 
-![insertar imagen GCP](./images/CP05.png)
+![insertar imagen GCP](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/images/CP05.png)
 
 * Una vez montado el cluster, Google nos da unas máquinas preparadas y con todos los servicios que necesitamos par nuestra infraestructura.
 
@@ -77,13 +78,13 @@ Procedemos al montaje y detallamos los pasos con las siguientes imágenes y come
 
 * El Google Storage lo utilizaremos como lugar de almacenamiento de nuestros datasets y otros ficheros. Con ello evitamos utilizar el HDFS de forma directa (internamente se utiliza) siendo su rendimiento parecido o igual. Otra gran ventaja es, en el momento que destruyamos nuestro cluster, esta unidad no se borra y esto es muy útil si queremos volver a crear otro cluster o acceder a sus datos.
 
-![insertar imagen GCP](./images/CP06.png)
+![insertar imagen GCP](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/images/CP06.png)
 
 * Ahora dentro de Google Storage, vamos a crear los directorios que utilizaremos para recoger datasets y depositar resultados. 
 
 * Los directorios a crear, son los que se detallan en el Diagrama, en el área de G. Storage.
 
-![insertar imagen GCP](./images/CP07.png)
+![insertar imagen GCP](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/images/CP07.png)
 
 * Una vez montada la infraestructura de Cloud, procederemos a subir los Datasets/ficheros que previamente hemos obtenido por diferentes medios y que hemos limpiado con bloc de notas y/o Trifacta. Cada uno subirá a su carpeta correspondiente, como hemos indicado en el punto anterior, haciéndolo de forma automática (Staging). Utilizaremos un jar que habremos desarrollado con Spark/Scala utilizando y lo programaremos en un job de Hadoop. Utilizaríamos Straming para procesar los diferentes ficheros y posiblemente utilizaríamos Kafka para casos muy concretos, pero no en este proyecto.
 
@@ -91,7 +92,7 @@ Para este desarrollo, lo moveremos todo, de forma manual a los diferentes reposi
 
 * Cambiar siguiente imagen a proyecto de Spark/Scala.
 
-![insertar imagen GCP](./images/CP08.png)
+![insertar imagen GCP](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/images/CP08.png)
 
 * En este punto ya tenemos nuestros datos subidos al cluster para poder ser procesados.
 
@@ -111,19 +112,19 @@ Añadir link al proyecto de limpieza de datos
  
  * En primer lugar, abrimos la ventana del CLI que nos facilita Google en su insfraestructura.
  
-![insertar imagen GCP](./images/CP05.png)
+![insertar imagen GCP](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/images/CP05.png)
 
  * A continuación, utilizaremos el Beeline para ejecutar los comandos de creación, carga y consulta de datos.
 
-![insertar imagen GCP](./images/CP16.png)
+![insertar imagen GCP](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/images/CP16.png)
 
-![insertar imagen GCP](./images/CP17.png)
+![insertar imagen GCP](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/images/CP17.png)
 
  * Una vez creada la tabla, insertamos los datos que obtendremos del dataset de airbnb, que se encuentra en Google Storage de nuestra infraestructura.
  
  * Una vez ejecutado el proceso, verificaremos que los datos hayan sido cargados correctamente.
  
- ![insertar imagen GCP](./images/CP18.png)
+ ![insertar imagen GCP](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/images/CP18.png)
  
  * Ya tenemos todos los datos disponibles para realizar consultas y cálculos.
 
