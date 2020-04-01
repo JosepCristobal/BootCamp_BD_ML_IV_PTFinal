@@ -101,7 +101,7 @@ Para este desarrollo, lo moveremos todo, de forma manual a los diferentes reposi
 * Inicialmente empezamos a tratar el fichero de airbnb completo de 247 MB y desistimos después de tres jornadas intentando hacer una importación decente para este proyecto, al final nos hemos decidido por el fichero reducido de 60,4 MB.
 
 Añadir link al proyecto de limpieza de datos 
-![insertar imagen GCP]()
+[Limpieza adicional](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/CleanDataset.ipynb)
 
  
  ## 4. Hive
