@@ -136,9 +136,11 @@ Añadir link al proyecto de limpieza de datos
 [Proyecto de Tableau ](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/Tableau/README_Tableau.md)
  
 ## 6. D3
-[Insertar link a proyecto de D3](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/D3/README.md)
+[Proyecto de D3](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/D3/README.md)
  
  * En este punto, ya podemos tener una idea clara de cuales son los precios medios que tienen los inmuebles en cada barrio de Madrid, tanto para el alquiler como para su compra. 
+ 
+ ## 7. IA
  
  * Ahora queremos ir un poco más lejos y nos gustaría predecir los precios de alquiler que deberían tener los diferentes inmuebles que podamos encontrar en venta, teniendo en cuenta sus diferentes características y situación. Nuestro objetivo es precisar cuales de ellos saldrían más rentables para invertir y proceder a su compra.
 
