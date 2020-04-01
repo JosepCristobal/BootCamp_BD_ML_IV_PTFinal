@@ -5,7 +5,7 @@
 
 ## Descripción y objetivos de nuestro proyecto.
 
-Una Empresa que gestiona un fondo de capital riesgo está interesada en adquirir inmuebles, en la zona de Madrid centro. Inicialmente quiere dedicarlos al alquiler.
+Una Empresa que gestiona un fondo de capital riesgo, llamada Capital Ganso, S.A., está interesada en adquirir inmuebles en la zona de Madrid centro. Inicialmente quiere dedicarlos al alquiler.
 Nos han encargado un estudio para determinar cual puede ser la mejor zona/barrio para invertir y si les es más rentable el alquilarlos como vivienda o bien como apartementos/casas turísticas. 
 
 Nuestro objetivo es el de comparar los precios de venta y los diferentes tipos de alquiler en la zona de Madrid centro.
