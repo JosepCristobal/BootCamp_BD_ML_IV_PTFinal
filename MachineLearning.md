@@ -42,4 +42,6 @@ Proyecto realizado con Anaconda, Jupyter y Python 3
 
 Los comentarios de proyecto están junto con el código.
 
+![Notebook MachineLearning](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/MachineLearningPT_V4.ipynb)
+
 [Volver principal](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/BootCamp%20IV%20proyecto%20final.md#7-ia)
