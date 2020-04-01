@@ -9,12 +9,12 @@ Nos permitirá comprobar que efectivamente el producto resuelva una necesidad de
 
 ## Situación
 
-Partimos  del supuesto que tenemos una empresa/consultoría que se dedica a gestionar y coordinar proyectos que se basan en el tratamiento y análisis de datos, pudiendo abarcar proyectos pequeños que mueven cantidades pequeñas de datos, como proyectos de gran envergadura con un manejo de gran cantidad de datos.
-Hemos recibido un encargo, por parte de un grupo inversor (Capital Ganso, S.A.) que empieza a operar en nuestro pais, que le ayudemos en la tarea de la toma de decisiones a la hora de invertir en la compra de inmuebles para dedicarlos al alquiler. Al ser recien llegados a nuestro mercado, quieren centrarse en Madrid y expandirse a otras ciudades en un futuro.
+Partimos  del supuesto que tenemos una empresa/consultoría que se dedica a gestionar y coordinar proyectos que se basan en el tratamiento y análisis de datos, pudiendo abarcar proyectos sencillos que mueven cantidades pequeñas de datos, como proyectos de gran envergadura con un manejo de gran cantidad de datos.
+Hemos recibido un encargo, por parte de un grupo inversor (Capital Ganso, S.A.) que empieza a operar en nuestro pais. Nos ha pedido que le ayudemos en la tarea de toma de decisiones a la hora de invertir en la compra de inmuebles para dedicarlos al alquiler. Al ser recien llegados a nuestro mercado, quieren centrarse en Madrid y expandirse a otras ciudades en un futuro.
 
 ## El Proyecto
 
-. El objetivo de este proyecto es montar un servicio para la empresa que hemos  mencionado y pretende adquirir viviendas, preferentemente pisos, para dedicarlos al alquiler vacacional. También quiere adquirir locales comerciales para alquilarlos, pero con contratos de más larga duración y siempre en zonas donde se pueda mover el turismo que suele alquilar pisos para sus estancias.
+. El objetivo de este proyecto es montar un servicio para la empresa que hemos  mencionado que pretende adquirir viviendas, preferentemente pisos, para dedicarlos al alquiler vacacional. También quiere adquirir locales comerciales para alquilarlos, pero con contratos de más larga duración y siempre en zonas donde se pueda mover el turismo que suele alquilar pisos para sus estancias.
 
 * A. La estrategia del proyecto es:
 	* La adquisición de datos serán el resultado del scraping/crawling de la web de airbnb, habitaclia y/o milanuncios, siempre en formato .csv.
@@ -128,7 +128,9 @@ Añadimos acceso al proyecto de limpieza de datos
  
  * Ya tenemos todos los datos disponibles para realizar consultas y cálculos.
 
- * Una vez con los datos ya preparados, antes de aplicar ningún algoritmo de IA, procedemos a representar gráficamente los datos obtenidos, para poder hacer un análisis de situación y situarnos en el escenario.
+ * En este proyecto trabajaremos con ficheros csv para el análisis de datos. La información para generar estos ficheros la extraeremos de Hive y compondremos el csv mencionado.
+ 
+ * Una vez con los datos ya preparados, antes de aplicar ningún algoritmo de IA, procedemos a representar gráficamente los datos obtenidos, para poder hacer un análisis de situación y visualizar el escenario.
  
  * Para ello hemos utilizado dos formas de representación, la primera basada en la herramienta de pago denominada Tableau y una segunda, totalmente gratuita, basada en javascript, librería D3, node y con la ventaja de que se puede visualizar a través de un navegador web sin la adquisición de ninguna licencia.
 
@@ -163,7 +165,11 @@ Añadimos acceso al proyecto de limpieza de datos
 	
 * A vistas de los resultados obtenidos, nos decantamos por Deep Learnig para hacer las predicciones de precios del alquiler de pisos según sus características, aplicando los algoritmos de los modelos obtenidos.
 
-* Nuestros mejores modelos han sido guardados en formato .h5 para deep learning y en formato .sav usando joblib para machine learning, para poder ser cargados en cualquier momento y realizar las predicciones oportunas. Se han realizado pruebas de guardado, carga y predicción en el mismo NoteBook de de los proyectos de deep learnig y machine learning.
+* Nuestros mejores modelos han sido guardados en formato .h5 para deep learning y en formato .sav usando joblib para machine learning. Estos modelos podrán ser cargados en cualquier momento y realizar las predicciones oportunas. Se han realizado pruebas de guardado, carga y predicción en el mismo NoteBook de de los proyectos de deep learnig y machine learning.
+
+* Con todo ello ya hemos conseguido obtener los datos deseados para procesarlos y calcular que 10 mejores inmuebles podemos recomendar a nuestro cliente.
+
+* Para hacer el cáculo utilizaremos la formula de idealista referente al precio del alquiler de los pisos.
 
 * Con todo ello ya hemos conseguido obtener los datos deseados para ser procesados y enviados por correo a nuestro cliente.
 
