@@ -135,7 +135,8 @@ Añadir link al proyecto de limpieza de datos
 ## 5. Tableau
 [Proyecto de Tableau ](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/Tableau/README_Tableau.md)
  
- ![Insertar link a proyecto de D3]()
+## 6. D3
+[Insertar link a proyecto de D3](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/D3/README.md)
  
  * En este punto, ya podemos tener una idea clara de cuales son los precios medios que tienen los inmuebles en cada barrio de Madrid, tanto para el alquiler como para su compra. 
  
