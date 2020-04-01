@@ -1,14 +1,15 @@
-# MachineLearningPT
-Entrega de la práctica del módulo de Machine Learning
+# MachineLearning
+Estudio para la predicción de precios de alquileres de pisos de Madrid, basado en técnicas de Machine Learning.
 
 ### Objetivo
 
-Abordar un problema de Machine Learning para nuestro estudio encargado por la empresa Capital Ganso, S.A. siguiendo la metodología y buenas prácticas que hemos trabajado durante el curso. Se aplicarán las técnicas de procesamiento/transformación de variables que mejor se acondicionen al problema, se tendrán que identificar los modelos que proporcionen prestaciones óptimas, las variables potencialmente más relevantes y la métrica adecuada para contrastar los distintos modelos. Las posibilidades son amplias.
+Abordar un problema de Machine Learning para nuestro estudio encargado por la empresa Capital Ganso, S.A. siguiendo la metodología y buenas prácticas que hemos trabajado durante el curso. Se aplicarán las técnicas de procesamiento/transformación de variables que mejor se acondicionen al problema, se tendrán que identificar los modelos que proporcionen prestaciones óptimas, las variables potencialmente más relevantes y la métrica adecuada para contrastar los distintos modelos. 
+Las posibilidades son amplias.
 El dataseset que utilizaremos está compuesto por datos reales, por lo tanto, precisará de una limpieza que ya se ha realizado anteriormente y de un análisis muy exaustivo.
 
 ### Conjunto de datos
 
-El conjunto de datos que vamos a utilizar es "./Data/airbnb_clean.csv". A este dataser ya le hemos aplicado una primera limpieza , el dataset inicial fue extraído de Airbnb mediante técnicas de scraping. Se utilizó el extract (“Only the 14780 selected records”), ya que minimiza el tiempo de ejecución y evita problemas de memoria en equipos con menos prestaciones.
+El conjunto de datos que vamos a utilizar son los contenidos en el fichero "./Data/airbnb_clean.csv". A este csv ya le hemos aplicado una primera limpieza , el dataset inicial fue extraído de Airbnb mediante técnicas de scraping. Se utilizó el extract (“Only the 14780 selected records”), ya que minimiza el tiempo de ejecución y evita problemas de memoria en equipos con menos prestaciones.
 
 ### Tarea
 
