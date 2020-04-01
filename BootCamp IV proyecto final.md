@@ -148,7 +148,7 @@ Añadir link al proyecto de limpieza de datos
 
  * Es el momento de epezar generar nuestros algoritmos y realizar un estudio para determinar que tipo de tecnología IA deberemos aplicar para poder hacer unas predicciones de precios correctas para nuestro cliente.
 
-![Notebook MachineLearning]()
+![Notebook MachineLearning](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/MachineLearningPT_V4.ipynb)
 
 
 ![insertar proyecto de ML DL MLP]()
