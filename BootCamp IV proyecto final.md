@@ -1,7 +1,7 @@
 ## BootCamp IV proyecto final
 
 ### Realizado por Josep Cristobal. 
-### Entrega el  19/03/2020.
+### Entrega el  19/03/2020 aplazada al día 02/04/2020.
 
 En nuestro proyecto vamos a entregar un Mínimo Producto Viable (MVP).
 Lo usaremos para probar rápidamente de manera cuantitativa y cualitativa la respuesta de nuestro cliente al proyecto y a la funcionalidad del mismo. 
