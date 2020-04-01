@@ -171,15 +171,32 @@ Añadimos acceso al proyecto de limpieza de datos
 
 * Para hacer el cáculo utilizaremos la formula de idealista referente al precio del alquiler de los pisos.
 
-* Con todo ello ya hemos conseguido obtener los datos deseados para ser procesados y enviados por correo a nuestro cliente.
+	- Los precios del alquiler por metro2, se suelen calcular cogiendo como referencia el precio del inmueble aplicandole una rentabilidad del 4% y amortizado a 25 años o 300 meses. Con esta formula, nosotros deberemos hacer un campo calculado, denominado "AlquilerRecomendado" en nuestro dataset. ([PrecioVenta/M2]/300) Aqui obtendremos el precio del alquiler por metro cuadrado recomendado, según el precio de la vivienda a adquirir, por mes.
+	- Los precios de Airbnb vinen calculados por día y nuestro algoritmo de deep learning nos dará su predicción por dia, por este motivo hemos creado un nuevo cálculo para tener el precio por mes. ([Price]/round([Metros2])) * 30. Con este cálculo obtenemos el precio del alquiler mensual, basándonos en las predicciones que nos ha dado nuestro algoritmo. El precio será el resultado de aplicar nuestro modelo a la vivienda que está en venta y lo dividimos por los metros cuadrados de la misma. 
+	- Con los datos obtenidos ya sabemos el precio del alquiler mensual recomendado y el precio mensual según nuestro algoritmo.
+	- Ahora solo nos queda calcular la diferencia entre alquiler predecible menos alquiler recomendado. Haremos una lista ordenada descendentemente y seleccionaremos los 10 primeros para recomendar a nuestros clientes.
+	
+* Ahora, con todos los cálculos realizados, ya sabemos que diez inmuebles podremos recomendar para su compra, a nuestro cliente Capital Ganso, S.A.
 
-* Para el envío de correos, utilizaremos la plataforma de MailChimp.
+* Prepararemos un documento en formato HTML donde relacionaremos los 10 inmuebles más rentables para su alquiler, maquetándolo de forma que podamos mostrar toda la información más relevante del inmueble, incluidas fotos si las tenemos, y detallando el precio de alquiler recomendado, el precio de alquiler predictivo, el precio de compra del inmueble y el precio del alquiler predictivo multiplicado por 300 meses. De esta forma podrá verse la diferencia del precio de compra comparado con el precio que obtendremos del alquiler durante estos 300 meses. Somos optimistas y presuponemos que el inmueble va a estar siempre alquilado.
+
+* Con todo ello ya hemos conseguido obtener un documento maquetado de forma elegante y fácil de entender y procedemos a enviarlo por correo a toda la lista de distribución que nos ha facilitado nuestro cliente.
+
+* Para el envío de correos, utilizaremos la plataforma de MailChimp. Utilizaremos su api.
 
 * Según recibamos la respuesta del api de MailChimp, guardaremos un registro/objeto en una BBDD Mongo para su posterior explotación.
 
 * Escogemos MailChimp por que nos permite interactuar con su api de forma muy comoda. Es un sistema que lleva tiempo funcionando, es fiable y nos aporta información del estado de los correos.
 
  * Una vez generados nuestros modelos, los aplicaremos a los nuevos datos que vayamos incorporando diariamente. El resultado lo dejaremos en Google Storage en la carpeta /output y quedará todo listo para generar el correo electrónico y enviarlo a nuestros clientes con el resultado.
+ 
+ Esperamos que con este MVP, a falta de automatizar todos los procesos y de dasarrollar la parte final de envío de los correos, nuestro cliente Capital Ganso, S.A., le queden cubiertas sus espectativas y nos compre el proyecto.
+ 
+ 
+ PD. Gracias por las dos clases extras que se hicieron de arquitectura, pero no he llegado a tiempo de poder incorporar lo aprendido en estas dos jornadas.
+ 
+ Hasta aquí he podido llegar con mi práctica, no he podido avanzar, pulir y perfeccionar más mi proyecto.
+ Me hubiera gustado llegar más lejos, y la verdad es que en estos 9 meses he aprendido mucho de lo que no sabía y tengo unas puertas abiertas y una base para profundizar en muchas áreas del mundo de los datos.
  
  
  
