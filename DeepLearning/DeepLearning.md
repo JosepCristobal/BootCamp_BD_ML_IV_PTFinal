@@ -43,6 +43,6 @@ Proyecto realizado con Python 3 utilizando diferentes librerías, a destacar Pan
 
 Los comentarios del proyecto se han ido anotando junto con el código.
 
-[Notebook DeepLearning](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/MachineLearningPT_V4.ipynb)
+[Notebook DeepLearning](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/DeepLearning/DeepLearningPT_Final.ipynb)
 
 [Volver principal](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/BootCamp%20IV%20proyecto%20final.md#7-ia)
