@@ -144,10 +144,12 @@ Añadir link al proyecto de limpieza de datos
  
  * Ahora queremos ir un poco más lejos y nos gustaría predecir los precios de alquiler que deberían tener los diferentes inmuebles que podamos encontrar en venta, teniendo en cuenta sus diferentes características y situación. Nuestro objetivo es precisar cuales de ellos saldrían más rentables para invertir y proceder a su compra.
 
-![insertar Link a proyecto .md]()
+![Proyecto Machine Learning](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/MachineLearning.md)
 
- 
  * Es el momento de epezar generar nuestros algoritmos y realizar un estudio para determinar que tipo de tecnología IA deberemos aplicar para poder hacer unas predicciones de precios correctas para nuestro cliente.
+
+![Notebook MachineLearning]()
+
 
 ![insertar proyecto de ML DL MLP]()
 
