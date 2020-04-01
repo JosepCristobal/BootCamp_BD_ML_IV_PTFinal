@@ -62,4 +62,3 @@ Esperamos que nuestro cliente le sea más fácil la toma de decisiones a través
  
 [Volver principal](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/BootCamp%20IV%20proyecto%20final.md)
 
-[Volver principal2](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/BootCamp%20IV%20proyecto%20final3.md)
