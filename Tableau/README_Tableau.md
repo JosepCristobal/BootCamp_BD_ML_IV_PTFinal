@@ -51,6 +51,7 @@ En primer lugar creamos y definimos nuestra fuente de datos.
 	* En el panel situado en la parte superior derecha, encontraremo el total de viviendas clasificadas por zona y tipo
 	* En la parte inferior, tenemos una representación de datos situados en un mapa. Hemos introducido una ventana emergente que nos muestra los datos en formato texto y hemos incrurstado un diagrama de anillo.
 
+ ![Tableau Panel Principal](https://github.com/JosepCristobal/BootCamp_BD_ML_IV_PTFinal/blob/master/images/Tableau_PantallaPrincipal.png)
 
 ## Conclusión final
 Esperamos que nuestro cliente le sea más fácil la toma de decisiones a través de la información facilitada y representada en este estuduio.
