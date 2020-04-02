@@ -7,7 +7,7 @@ En nuestro proyecto vamos a entregar un Mínimo Producto Viable (MVP).
 Lo usaremos para probar rápidamente de manera cuantitativa y cualitativa la respuesta de nuestro cliente al proyecto y a la funcionalidad del mismo. 
 Nos permitirá comprobar que efectivamente el producto resuelva una necesidad del cliente antes de tener que invertir demasiados recursos en su desarrollo.
 
-## Situación
+## Escenario
 
 Partimos  del supuesto que tenemos una empresa/consultoría que se dedica a gestionar y coordinar proyectos que se basan en el tratamiento y análisis de datos, pudiendo abarcar proyectos sencillos que mueven cantidades pequeñas de datos, como proyectos de gran envergadura con un manejo de gran cantidad de datos.
 Hemos recibido un encargo, por parte de un grupo inversor (Capital Ganso, S.A.) que empieza a operar en nuestro pais. Nos ha pedido que le ayudemos en la tarea de toma de decisiones a la hora de invertir en la compra de inmuebles para dedicarlos al alquiler. Al ser recien llegados a nuestro mercado, quieren centrarse en Madrid y expandirse a otras ciudades en un futuro.
