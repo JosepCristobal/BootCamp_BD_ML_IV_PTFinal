@@ -178,6 +178,10 @@ Añadimos acceso al proyecto de limpieza de datos
 	
 * Ahora, con todos los cálculos realizados, ya sabemos que diez inmuebles podremos recomendar para su compra, a nuestro cliente Capital Ganso, S.A.
 
+* Los precios que se han calculado son precios por metro cuadrado. Para hacer la presentación a nuestro cliente, multiplicaremos los precios calculados por el total de metros cuadrados de cada vivienda.
+
+* Ahora, con todos los cálculos realizados, ya sabemos que diez inmuebles podremos recomendar para su compra, a nuestro cliente Capital Ganso, S.A.
+
 * Prepararemos un documento en formato HTML donde relacionaremos los 10 inmuebles más rentables para su alquiler, maquetándolo de forma que podamos mostrar toda la información más relevante del inmueble, incluidas fotos si las tenemos, y detallando el precio de alquiler recomendado, el precio de alquiler predictivo, el precio de compra del inmueble y el precio del alquiler predictivo multiplicado por 300 meses. De esta forma podrá verse la diferencia del precio de compra comparado con el precio que obtendremos del alquiler durante estos 300 meses. Somos optimistas y presuponemos que el inmueble va a estar siempre alquilado.
 
 * Con todo ello ya hemos conseguido obtener un documento maquetado de forma elegante y fácil de entender y procedemos a enviarlo por correo a toda la lista de distribución que nos ha facilitado nuestro cliente.
@@ -197,6 +201,14 @@ Añadimos acceso al proyecto de limpieza de datos
  
  Hasta aquí he podido llegar con mi práctica, no he podido avanzar, pulir y perfeccionar más mi proyecto.
  Me hubiera gustado llegar más lejos, y la verdad es que en estos 9 meses he aprendido mucho de lo que no sabía y tengo unas puertas abiertas y una base para profundizar en muchas áreas del mundo de los datos.
+ 
+ Mi agradecimiento a mi familia que ha aguantado conmigo la carga personal en horas y esfuerzos que supone hacer este Bootcamp.
+ 
+ A todos mis compañeros de curso, con ellos, con su ayuda moral y de colaboración he conseguido llegar hasta aquí.
+ 
+Y por último, mi agradecimiento a todos los profesores y responsables de este Bootcamp que se han esforzado para que todo saliera bien y su conocimiento llegara a nosotros. Nos han ayudado a entrar en un mundo nuevo, en un mundo desconocido para mi hace 9 meses.
+
+Gracias a tod@s
  
  
  
